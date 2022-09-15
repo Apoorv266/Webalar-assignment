@@ -1,0 +1,30 @@
+
+  
+  /* .title::before,
+  .title::after {
+    content: '';
+    height: 2px;
+    background-color: #fff;
+    display: block;
+  } */
+
+  button.rec-dot{
+   display: none;
+  }
+  
+  .item{
+    margin-top: 50px;
+  }
+  @media (max-width: 320px){
+    .crousalImg{
+        width: 140px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+ 

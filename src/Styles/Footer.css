@@ -1,0 +1,161 @@
+.footer {
+  background-color: #364f6b;
+  height: 450px;
+  width: 90vw;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  align-items: center;
+}
+
+.top .title{
+  font-family: 'Lato', sans-serif;
+}
+
+.content {
+  flex-basis: 50%;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+}
+
+.btn3 {
+  height: 40px;
+  width: 150px;
+  background-color: #43dde6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 30px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+}
+
+.details {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex-basis: 60%;
+}
+
+.details p {
+  margin-top: 30px;
+}
+
+.footnotes {
+  display: flex;
+  color: white;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social i {
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .about {
+    flex-basis: 50%;
+  }
+
+  .details {
+    margin-right: 20px;
+  }
+
+  .footer{
+height: 520px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    height: 1000px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+  }
+  .top {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .details {
+    margin-right: 5px;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footnotes {
+    text-align: center;
+  }
+
+  .top .content{
+    margin-top: 30px;
+  }
+
+  .about{
+    flex-direction: column;
+}
+}
+
+
+
